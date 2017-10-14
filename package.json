@@ -6,8 +6,7 @@
     "author": " ",
     "license": "MIT",
     "scripts": {
-        "script:dev": "node fuse --variant dev",
-        "script:prod": "node fuse --variant prod"
+        "build": "node fuse && node public/build/app.js"
     },
     "devDependencies": {
         "fuse-box": "^2.3.3",
