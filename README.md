@@ -29,3 +29,15 @@ $ yarn install # yarn.lock を使用してインストール
 ```
 $ npm run build
 ```
+
+## tsconfig
+fuse-box のデフォルトの tsconfig を使用
+カスタムで使用する場合は、tsconfig.json を用意し
+
+Fuse.init の設定にそのパスを加える
+
+```
+Fuse.init({
+  "tsConfig":"tsconfig.json" // プロジェクトフォルダに tsconfig.json を置く場合
+})
+```
