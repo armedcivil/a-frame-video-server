@@ -1,0 +1,17 @@
+{
+    "name": "a-frame-video-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:armedcivil/a-frame-video-server.git",
+    "author": " ",
+    "license": "MIT",
+    "scripts": {
+        "script:dev": "node fuse --variant dev",
+        "script:prod": "node fuse --variant prod"
+    },
+    "devDependencies": {
+        "fuse-box": "^2.3.3",
+        "typescript": "^2.5.3",
+        "yargs": "^9.0.1"
+    }
+}
